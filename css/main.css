@@ -1,3 +1,37 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-family: 'Francois One', sans-serif;
+ }
+
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+ body {
+   /* Establece la fuente de Google aquí */
+   margin: 0 auto;
+   font-size: 16px;
+   line-height: 1.71429;
+   background-color: #008B8B;
+ }
+
+ a {
+   color: white;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #AFEEEE;
+ }
+ h2{
+   background-color: white;
+ }
+
